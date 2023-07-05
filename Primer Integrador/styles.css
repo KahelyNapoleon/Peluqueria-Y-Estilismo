@@ -1,0 +1,565 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Sono:wght@300;400&display=swap');
+
+*{box-sizing: border-box;}
+
+
+body{
+    position: relative;
+    width: 960px;
+    margin: auto;
+    display: block;
+    margin-top: 0%;
+    background-image: url(fotos/fondo-body.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+
+header{
+    display:block;
+    margin: auto;
+    width: 960px;
+    height: 390px;
+    background-color: rgb(255, 255, 255);
+    background-image: url(fotos/foto1.jpg);
+    background-size: 500px 500px;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-position-y: -10px;
+    border-left: 1px solid black;
+    border-right:1px solid black;
+
+   
+
+}
+
+
+
+#logo-texto{
+    width: 500px;
+    height: 40px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    left: 230px;
+    top: 20px;
+    text-align:center;
+    text-decoration-line:none;
+    text-decoration-style:solid;
+    font-family: 'Marcellus SC', serif;
+    font-size: 2em;
+    color: pink;
+
+    
+}
+
+nav{
+    width: 760px;
+    height: 10px;
+    position: relative;
+    margin: auto;
+    top: 40px;
+}
+
+nav ul {
+    width: 100%;
+    align-content: center;
+    padding: 0;
+    margin: 10px;
+    float:none;
+}
+nav ul li{
+    display: inline-block; 
+}
+
+nav ul li a {
+    margin: 35px;
+    font-size: 20px;
+    text-decoration: none;
+    color:  rgba(0, 0, 0, 0.41);
+    
+}
+
+
+
+/*Inicio de seccion */
+
+
+#inicio-seccion{
+    position: relative;
+    display: block;
+    width: 110px;
+    height: 30px;
+    background-color: rgb(255, 220, 213);
+    padding: 0;
+    float: right;
+    right: 20px;
+    font-family: 'Marcellus SC', serif;
+    font-size:small;
+    text-align: center;
+    bottom: 55px;   
+    border-radius: 2px;
+    border-style:solid;
+    border-width: 0.1px;
+    border-color:  rgba(0, 0, 0, 0.123);
+}
+
+
+#inicio-seccion a{
+    position: relative;
+    margin: 0;
+    padding: 0%;
+    top: 5px;
+    color: rgba(0, 0, 0, 0.41);
+    text-decoration: none;
+}
+
+
+
+
+/* MAIN DE PRESENTACION NOSOTROS*/
+
+
+#nosotros{
+    position:relative;
+    display: block;
+    width: 960px;
+    height: 750px;
+    margin: auto;
+    justify-content: center;
+    background: rgba(255, 192, 203, 0.374);
+    border-left: 1px solid black;
+    border-right:1px solid black;
+
+    
+}
+
+.titulos{
+    width: 300px;
+    height: 35px;
+    margin: auto;
+    padding: 0;
+
+    text-align: center;
+    font-family: 'Marcellus SC', serif;
+    font-size: 2.5em;
+}
+
+.img{
+    
+    width: 475px;
+    height: 700px;
+    display: inline-block;
+    top: 0px;
+    margin:auto;
+    padding: 0;
+    color: white;
+    justify-content: center;
+   /*border: 1px solid red;*/ 
+}
+
+.texto{
+    width: 475px;
+    height: 700px;
+    float: right;
+    top: 0px;
+    margin:auto;
+    padding: 0;
+    color: white;
+    justify-content: center;
+    /*border: 1px solid red;*/ 
+}
+
+#contiene-foto1,#contiene-foto2 , #contiene-foto3 {
+ position: relative;
+ width: 200px;
+ height: 300px;
+
+ border:solid;
+ border-color: rgba(255, 255, 255, 0.578);
+ border-width: 0.3em;
+ 
+ display: flex;
+ float:none;
+ margin: 0;
+ padding: 0;
+ border-start-end-radius: 20px;
+ border-bottom-left-radius: 20px;
+
+
+ box-shadow: 10px 5px 5px black;
+
+}
+#contiene-foto1:hover,#contiene-foto2:hover , #contiene-foto3:hover{
+transition: all 750ms ease-out;
+transform:scale(1.03);
+
+}
+
+#contiene-foto1 {
+    left: 30px;
+
+    background-image: url(fotos/pelu11.jpeg);
+ background-size:cover;
+ background-repeat: no-repeat;
+ transition: all 200ms ease-in;
+
+}
+#contiene-foto2 {
+    left: 250px;
+    bottom: 100px;
+
+    background-image: url(fotos/bronde.jpeg);
+ background-size:cover;
+ background-repeat: no-repeat;
+ transition: all 750ms ease-in;
+
+
+}
+#contiene-foto3 {
+    left: 30px;
+    bottom: 220px;
+
+    background-image: url(fotos/pelu7.jpeg);
+ background-size:cover;
+ background-repeat: no-repeat;
+ transition: all 600ms ease-in;
+
+
+}
+
+.texto-presentacion{
+    position: relative;
+    width: 80%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+
+    top: 100px;
+    left: 40px;
+
+    font-family: 'Marcellus SC', serif;
+    font-size: 1.3em;
+    color: black;
+
+}
+
+/* SHOWROOM */
+
+#showroom-title{
+    width: 200px;
+    height: 30px;
+
+    justify-content: center;
+    position: relative;
+    top: -20px;
+    display: flex;
+    margin: 0%;
+    margin: auto;
+
+    font-family: 'Marcellus SC', serif;
+    font-size: 2.5em;
+}
+
+
+#showroom{
+    display: block;
+    width: 100%;
+    height: 1250px;
+    background: rgba(255, 192, 203, 0.374);
+    border-left: 1px solid black;
+    border-right:1px solid black;
+
+}
+
+#foto1-texto, #foto2-texto, #foto3-texto, #foto4-texto, #foto5-texto{
+    position: relative;
+    width: 700px;
+    height: 200px;
+    
+    margin-bottom: 30px ;
+    top: 30px;
+   
+}
+
+
+/* Presentacion 1 */
+/* Contenedor */
+#foto1-texto{
+    left: 20px;
+    display: flex;
+}
+/* Contenido */
+.foto1, .textF1{
+    position: relative;
+    left: 20px;
+    width: 50%;
+    height: 100$;
+    
+}
+.foto1{
+    position: relative;
+    
+    bottom: 20px;
+    width: 220px;
+    height: 240px;
+    border-radius: 100%;
+    box-shadow: 0px 15px 15px 15px rgba(0, 0, 0, 0.362);
+}
+.textF1{
+    line-height: 140%;
+    position: relative;
+    text-align: center;
+    left: 100px;
+    font-family: 'Marcellus SC', serif;
+    text-shadow: 1px 5px 2px rgba(138, 129, 129, 0.498);
+}
+
+
+/* Presentacion 2 */
+/* Contenedor */
+#foto2-texto{
+    left: 240px;
+    display: flex;
+}
+/* Contenido */
+.foto2, .textF2{
+    position: relative;
+    left: 110px;
+    width: 50%;
+    height: 100$;
+    
+    
+}
+.foto2{
+    position: relative;
+    width: 220px;
+    height: 240px;
+    border-radius: 100%;
+    box-shadow: 0px 15px 15px 15px rgba(0, 0, 0, 0.362);
+
+    bottom: 30px;
+}
+.textF2{
+    line-height: 140%;
+    position: relative;
+    left: 30px;
+    text-align: center;
+    font-family: 'Marcellus SC', serif;
+}
+
+
+
+/* Presentacion 3 */
+
+#foto3-texto{
+    left: 20px;
+    display: flex;
+}
+
+/* Presentacion 4 */
+#foto4-texto{
+    left: 240px;
+    display: flex;
+}
+
+#correc-foto4{
+    width: 145px;
+    border-radius:200px ;
+}
+
+
+/* Presentacion 5 */
+#foto5-texto{
+    left: 20px;
+    display: flex;
+}
+
+
+
+
+
+
+/* SERVICIOS */
+
+#servicios{
+    width: 100%;
+    height: 1060px;
+    background: rgba(255, 192, 203, 0.374);
+    border-left: 1px solid black;
+    border-right:1px solid black;
+}
+
+#servicios h1{
+    position: relative;
+    bottom: 30px;
+    width: 300px;
+    height: 35px;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+
+    font-family: 'Marcellus SC', serif;
+    font-size: 2.5em;
+}
+
+#cont-trabajos{
+    display: inline-flexbox;
+    width: 100%;
+    height: 90%;
+    
+}
+
+.trabajos{
+    width: 100%;
+    height: 100px;
+
+    margin: 1px;
+
+   /* border: 1px solid black; */
+
+    display: inline-block;
+}
+
+.descripciones{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    float: left;
+   /* border: 1px solid red; */
+    font-family: 'Marcellus SC', serif;
+}
+
+#work-title{
+    display: inline-block;
+    margin: 0;
+}
+#subworks{
+    display: inline-block;
+    margin: 0;
+    margin-left: 10px;
+}
+#work-title, #subworks{
+    position: relative;
+    left: 40px;
+    top: 20px;
+}
+#work-title:hover, #subworks:hover{
+    cursor: default;
+}
+
+
+#B #precio, #boton-turno{
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    
+}
+#boton-turno{
+    width: 160px;
+    
+    top: 22px;
+    left:170px ;
+
+    text-align: center;
+    
+    
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:rgb(203, 180, 180);
+
+    background-color: rgb(33, 22, 23);
+    color: white;
+}
+#boton-turno:hover{
+    cursor: pointer;
+}
+
+#precio{
+    left: 60px;
+    top: 27px;
+}
+#precio:hover{
+    cursor:default;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*MARCAS*/
+
+#marcas{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    display: flexbox;
+    margin-top:0%;
+    padding: 0%;
+
+    flex-direction: ;
+    
+    background-color: white;
+    
+}
+
+
+
+#contenedor{
+    position: relative;
+    margin: auto;
+    top: 20px;
+    
+
+    width: 75%;
+    height: 86%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 200px;
+    
+}
+
+.titulos-marcas{
+    position: relative;
+    top: 30px;
+    width: 600px;
+    height: 49px;
+    margin: auto;
+    padding: 0;
+    
+    text-align: center;
+
+    color: rgb(195, 98, 98);
+    font-family: 'Marcellus SC', serif;
+}
+
+#contenedor img{
+    width: 150px;
+    image-rendering: optimizeQuality ;
+    
+    margin: 10px 10px;
+    padding: 0;
+    
+}
+
+
+
+
+
+
+
+
