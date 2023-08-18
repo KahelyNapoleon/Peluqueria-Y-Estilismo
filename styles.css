@@ -1,0 +1,738 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Sono:wght@300;400&display=swap');
+
+*{box-sizing: border-box;
+  
+}
+
+
+body{
+    position: relative;
+    width: 1080px;
+    margin: auto;
+    display: flexbox;
+    margin-top: 1%;
+ /*   background-image: url(fotos/fondo-body.jpg); */
+   /* background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    
+    image-rendering:optimizeQuality;*/
+    
+    
+}
+
+
+
+header{
+    display:block;
+    margin: auto;
+    width: 100%;
+    height: 390px;
+    background-color: rgb(255, 255, 255);
+    background-image: url(fotos/foto1.jpg);
+    background-size: 500px 500px;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-position-y: -10px;
+   
+   
+
+}
+
+
+
+#logo-texto{
+    width: 500px;
+    height: 40px;
+    position: relative;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    top: 20px;
+    text-align:center;
+    text-decoration-line:none;
+    text-decoration-style:solid;
+    font-family: 'Marcellus SC', serif;
+    font-size: 2em;
+    color: pink;
+
+    
+}
+
+nav{
+    width: 760px;
+    height: 10px;
+    position: relative;
+    margin: auto;
+    top: 40px;
+}
+
+nav ul {
+    width: 100%;
+    align-content: center;
+    padding: 0;
+    margin: 10px;
+    float:none;
+}
+nav ul li{
+    display: inline-block; 
+}
+
+nav ul li a {
+    margin: 35px;
+    font-size: 20px;
+    text-decoration: none;
+    color:  rgba(0, 0, 0, 0.41);
+    
+}
+nav ul li a:hover{
+    color: black;
+} 
+
+
+
+/*Inicio de sesion */
+
+
+#inicio-sesion{
+    position: relative;
+    display: flexbox;
+    width: 110px;
+    height: 30px;
+    background-color:rgba(255, 192, 203, 0.374);
+    padding: 0;
+    float: right;
+    top: -50px;
+    right: 20px;
+    font-family: 'Marcellus SC', serif;
+    font-size:small;
+    
+    
+    border-radius: 2px;
+    border-style:solid;
+    border-width: 0.1px;
+    border-color:  rgba(0, 0, 0, 0.123);
+}
+
+
+#inicio-sesion a{
+    position: relative;
+    display: flex;
+    margin: 0;
+    margin: auto;
+    padding: 0%;
+    
+    color: rgba(0, 0, 0, 0.41);
+    text-decoration: none;
+    
+    
+    
+}
+
+
+
+
+/* ---------MAIN DE PRESENTACION NOSOTROS-------------------*/
+
+
+#nosotros{
+    position:relative;
+    display: block;
+    width: 100%;
+    height: 750px;
+    margin: auto;
+    justify-content: center;
+    background: rgba(255, 192, 203, 0.374);
+  
+    
+}
+
+.titulos{
+    width: 300px;
+    height: 35px;
+    margin: auto;
+    padding: 0;
+
+    text-align: center;
+    font-family: 'Marcellus SC', serif;
+    font-size: 2.5em;
+}
+
+.img{
+    
+    width: 540px;
+    height: 700px;
+    display: inline-block;
+    top: 0px;
+    margin:auto;
+    padding: 0;
+    color: white;
+    justify-content: center;
+
+   /*border: 1px solid red;*/ 
+}
+
+.texto{
+    display: inline-block;
+    position: relative;
+    width: 540px;
+    height: 700px;
+    float: right;
+    top: 0px;
+    
+    padding: 0;
+    color: white;
+    justify-content: center;
+    right: 0px;
+    /*border: 1px solid red;*/ 
+}
+
+#contiene-foto1,#contiene-foto2 , #contiene-foto3 {
+ position: relative;
+ width: 200px;
+ height: 300px;
+
+ border:solid;
+ border-color: rgba(255, 255, 255, 0.578);
+ border-width: 0.3em;
+ 
+ display: flex;
+ float:none;
+ margin: 0;
+ 
+ padding: 0;
+ border-start-end-radius: 20px;
+ border-bottom-left-radius: 20px;
+
+
+ box-shadow: 10px 5px 5px black;
+ image-rendering:optimizeQuality;
+
+}
+#contiene-foto1:hover,#contiene-foto2:hover , #contiene-foto3:hover{
+transition: all 300ms ease-out;
+transform:scale(1.01);
+
+}
+
+#contiene-foto1 {
+    left: 30px;
+
+    background-image: url(fotos/pelu11.jpeg);
+ background-size:cover;
+ background-repeat: no-repeat;
+ transition: all 200ms ease-in;
+ image-rendering: optimizeQuality;
+
+}
+#contiene-foto2 {
+    
+    left: 280px;
+    bottom: 100px;
+
+    background-image: url(fotos/bronde.jpeg);
+ background-size:cover;
+ background-repeat: no-repeat;
+ transition: all 200ms ease-in;
+ image-rendering: optimizeQuality;
+
+
+}
+#contiene-foto3 {
+    left: 30px;
+    bottom: 220px;
+
+    background-image: url(fotos/pelu7.jpeg);
+ background-size:cover;
+ background-repeat: no-repeat;
+ transition: all 200ms ease-in;
+image-rendering: optimizeQuality;
+
+}
+
+.texto-presentacion{
+    position: relative;
+    width: 80%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+
+    top: 100px;
+    left: 40px;
+
+    font-family: 'Marcellus SC', serif;
+    font-size: 1.3em;
+    color: black;
+
+}
+
+/*--------------------- SHOWROOM ---------------------------*/
+
+#showroom-title{
+    width: 200px;
+    height: 30px;
+
+    justify-content: center;
+    position: relative;
+
+    display: flex;
+    margin: 0%;
+    margin: auto;
+
+    font-family: 'Marcellus SC', serif;
+    font-size: 2.5em;
+    
+}
+
+
+#showroom{
+    display: block;
+    width: 100%;
+    height: 1250px;
+    background: rgba(255, 255, 255, 0.54);
+    background-image: url(fotos/fondo-body.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+    
+    
+
+}
+
+#foto1-texto, #foto2-texto, #foto3-texto, #foto4-texto, #foto5-texto{
+    position: relative;
+    width: 700px;
+    height: 200px;
+    
+    margin-bottom: 30px ;
+    top: 30px;
+    image-rendering: optimizeQuality;
+}
+
+
+/* Presentacion 1 */
+/* Contenedor */
+#foto1-texto{
+    left: 20px;
+    display: flex;
+}
+/* Contenido */
+.foto1, .textF1{
+    position: relative;
+    left: 20px;
+    width: 50%;
+    height: 100$;
+    
+}
+.foto1{
+    position: relative;
+    
+    bottom: 20px;
+    width: 220px;
+    height: 240px;
+    border-radius: 100%;
+    box-shadow: 0px 15px 15px 15px rgba(0, 0, 0, 0.362);
+}
+.textF1{
+    line-height: 140%;
+    position: relative;
+    text-align: center;
+    left: 100px;
+    font-family: 'Marcellus SC', serif;
+    text-shadow: 1px 5px 2px rgba(138, 129, 129, 0.498);
+}
+
+
+/* Presentacion 2 */
+/* Contenedor */
+#foto2-texto{
+    left: 360px;
+    display: flex;
+}
+/* Contenido */
+.foto2, .textF2{
+    position: relative;
+    left: 110px;
+    width: 50%;
+    height: 100$;
+    
+    
+}
+.foto2{
+    position: relative;
+    width: 220px;
+    height: 240px;
+    border-radius: 100%;
+    box-shadow: 0px 15px 15px 15px rgba(0, 0, 0, 0.362);
+
+    bottom: 30px;
+}
+.textF2{
+    line-height: 140%;
+    position: relative;
+    left: 30px;
+    text-align: center;
+    font-family: 'Marcellus SC', serif;
+}
+
+
+
+/* Presentacion 3 */
+
+#foto3-texto{
+    left: 20px;
+    display: flex;
+}
+
+/* Presentacion 4 */
+#foto4-texto{
+    left: 440px;
+    display: flex;
+}
+
+#correc-foto4{
+    width: 145px;
+    border-radius:200px ;
+}
+
+
+/* Presentacion 5 */
+#foto5-texto{
+    left: 20px;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+/* -----------------------SERVICIOS------------------------ */
+
+#servicios{
+    width: 100%;
+    height: 1300px;
+    background:white;
+    border: 1px solid black;
+  
+}
+
+#servicios h1{
+    position: relative;
+    bottom: 0px;
+    width: 300px;
+    height: 45px;
+    text-align: center;
+    margin: auto;
+    top: 10px;
+    padding: 0;
+
+    color: rgb(5, 1, 1);
+    font-family: 'Marcellus SC', serif;
+    font-size: 2.5em;
+}
+
+#cont-trabajos{
+    position: relative;
+    top: 30px;
+    display: inline-flexbox;
+    width: 100%;
+    height: 90%;
+    color: black;
+    
+}
+
+.trabajos1, .trabajos2, #titulo-color, #titulo-deco{
+    width: 100%;
+    height: 100px;
+
+    margin: 0px;
+
+   /* border: 1px solid black; */
+
+    display: inline-block;
+}
+
+
+.descripciones{
+    width: 50%;
+    height: 100%;
+    display: flexbox;
+    
+    justify-content: center;
+    align-items: center;
+    float:left;
+   /* border: 1px solid red; */
+    font-family: 'Marcellus SC', serif;
+    background: rgba(0, 0, 0, 0.187);
+}
+/*Titulos de Color y Decoloracion*/
+.descripciones-titulos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 99%;
+    height: 100%;
+   
+    margin: auto;
+    margin-bottom: 5px;
+   /* border: 1px solid red; */
+    font-family: 'Marcellus SC', serif;
+    background: rgba(0, 0, 0, 0.187);
+    border: 1px solid black;
+}
+
+/* Titulos de los servicios Decoloracion y Color*/
+#color-titulo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:33px 0px 33px 0px;
+    margin: auto;
+    cursor: pointer;
+}
+#deco-titulo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:33px 0px 33px 0px;
+    margin: auto;
+    cursor: pointer;
+}
+
+/*--------------------------------------------------------*/
+
+.work-title{
+    display: inline-block;
+    margin: 0;
+}
+#subworks{
+    display: inline-block;
+    margin: 0;
+    margin-left: 10px;
+}
+.work-title, #subworks{
+    position: relative;
+    left: 40px;
+    top: 20px;
+}
+.work-title:hover, #subworks:hover{
+    cursor: default;
+}
+
+
+#B #precio, #boton-turno{
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    
+}
+#boton-turno{
+    width: 160px;
+    
+    top: 22px;
+    left:170px ;
+    
+    text-align: center;
+    
+    
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 2px;
+    border-color:rgb(167, 150, 150);
+
+    background-color: rgba(255, 192, 203, 0.374);
+    color: black;
+}
+#boton-turno:hover{
+    cursor: pointer;
+}
+
+#precio{
+    left: 60px;
+    top: 27px;
+}
+#precio:hover{
+    cursor:default;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------  MARCAS------------------------*/
+
+#marcas{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    display: flexbox;
+    margin-top:0%;
+    padding: 0%;
+
+    flex-direction: ;
+    
+    background-color: white;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    
+}
+
+
+
+#contenedor{
+    position: relative;
+    margin: auto;
+    top: 20px;
+    
+
+    width: 75%;
+    height: 86%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 200px;
+    
+}
+
+#titulos-marcas{
+    position: relative;
+    top: 10px;
+    width: 600px;
+    height: 49px;
+    margin: auto;
+    padding: 0;
+    
+    text-align: center;
+
+    color: black;
+    font-size: 2em;
+    font-family: 'Marcellus SC', serif;
+}
+
+#contenedor img{
+    width: 150px;
+    image-rendering: optimizeQuality ;
+    
+    margin: 10px 10px;
+    padding: 0;
+    
+}
+
+footer{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.307);
+    display: flex;
+    
+    align-items: center;
+
+    border:1px solid black;
+    border-top:1px solid white ;
+  
+    
+    
+}
+
+
+#Contacto1, #Contacto2, #Contacto3{
+    display: flex;
+    position: relative;
+    flex-direction:column;
+    
+    width: 300px;
+    height: 300px;
+    
+
+    margin: 10px;
+    
+
+    font-family: 'Marcellus SC', serif;
+    color: black;
+}
+
+/* Contacto1 */
+#Contacto1{
+    margin-left: 40px;
+}
+#Contacto1 h3,p{
+    top: 40px;
+    display: flex;
+
+    position: relative;
+    width: 200ox;
+    height: 30px;
+    
+
+    
+}   
+
+/* Contacto 2  Logo y Enlace*/
+#Contacto2{
+    
+}
+
+#foot-image{
+    width: 100%;
+    height: 80%;
+    background-image: url(fotos/foto1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -30px;
+}
+
+#logo{
+    position: relative;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    background-image: url(instagram.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    right: 17px;
+    margin: auto;
+
+}
+
+/* Contacto 3 Horarios*/
+
+
+#horario{
+    position: relative;
+    top: 40px;
+}
+
+
+
+
+/*----mapa -------=-*/
+iframe{
+    position: relative;
+    display: flex;
+    margin-right: 20px;
+    
+    align-items: ;
+}
+
+
+
+
+
+
+
